@@ -8,8 +8,8 @@ namespace AnimationCrashReproductionSample
 
 		async void HandleClicked(object sender, System.EventArgs e)
 		{
-			await this.RotateTo(359, 500, Easing.CubicOut);
-			await this.RotateTo(0, 500, Easing.CubicOut);
+			await this.RotateTo(539, 1000, Easing.CubicOut);
+			await this.RotateTo(0, 1000, Easing.CubicIn);
 		}
 	}
 }
